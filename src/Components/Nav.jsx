@@ -1,6 +1,5 @@
 import React from "react";
 import myVideos from "../assets/myVideos/video1.mp4";
-import icons from "../assets/icons/image.png";
 
 const Nav = () => {
   return (
@@ -19,7 +18,7 @@ const Nav = () => {
             <source src={myVideos} type="video/mp4" />
           </video>
         </a>
-        <div className=" absolute top-0 left-0 flex-1 flex justify-center items-center gap-16 text-white mt-10 p-5">
+        <div className=" absolute top-0 left-0 flex-1 flex justify-center items-center gap-16 text-white mt-10 p-5 ">
           <a
             href="#basic/dept"
             className=" max-[435px]:text-xl max-[435px]:-mt-10 lg:text-2xl  lg:ml-24 lg:-mt-2 md:text-[17px]  font-bold "
