@@ -7,7 +7,6 @@ const Nav = () => {
       <nav className="relative w-full h-full">
         <a href="/" className="">
           <video
-            controls
             width="100%"
             height="100%"
             autoPlay
@@ -23,25 +22,25 @@ const Nav = () => {
             href="#basic/dept"
             className=" max-[435px]:text-xl max-[435px]:-mt-10 lg:text-2xl  lg:ml-24 lg:-mt-2 md:text-[17px]  font-bold "
           >
-            BASIC/DEPT
+            BASIC/DEPT<sup>®</sup>
           </a>
           <div className="  ml-28 text-[14px]  font-normal  gap-16 justify-center items-center hidden xl:flex">
-            <a href="#home" className="">
+            <a href="#home" className="hover:underline">
               WORK
             </a>
-            <a href="#about" className="">
+            <a href="#about" className="hover:underline">
               ABOUT
             </a>
-            <a href="#news" className="">
+            <a href="#news" className="hover:underline">
               NEWS
             </a>
-            <a href="#thinking" className="">
+            <a href="#thinking" className="hover:underline">
               THINKING
             </a>
-            <a href="#careers" className="">
+            <a href="#careers" className="hover:underline">
               CAREERS
             </a>
-            <a href="#contact" className="">
+            <a href="#contact" className="hover:underline">
               CONTACT
             </a>
           </div>
