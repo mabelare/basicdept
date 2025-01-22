@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.section {
+  transition: background-color 1s ease;
+}
+
+.section.in-view {
+  background-color: var(--section-bg-color);
+}
+
+.nav-container {
+  cursor: none;
+}
+
+.custom-cursor-container {
+  transition: transform 0.2s ease;
+  transform: translate(-50%, -50%);
+}
+
+.custom-cursor-container.hover {
+  transform: translate(-50%, -50%) scale(1.2);
+}
+
+.custom-cursor-container.hidden {
+  display: none;
+}
+
+.custom-cursor {
+  transition: transform 0.2s ease;
+}
+
+.arrow-icon {
+  width: 20px;
+  height: auto;
+}
