@@ -6,6 +6,22 @@ import video from "../assets/myVideos/video3.mp4";
 const Adage = () => {
   return (
     <section className="mt-64">
+      <div className="flex justify-between px-6 py-12 items-start -mt-52 mb-12">
+        <p className="text-[40px] font-bold text-gray-900  leading-tight ml-8">
+          BASIC/DEPT <sup>®</sup>is a global branding <br /> and digital design
+          agency building <br />
+          products, services, and eCommerce <br /> experiences that turn
+          cultural values <br /> into company value.
+          <br />
+          <span className="px-6 py-2 mt-12 border font-bold border-gray-600 text-[13px] rounded-3xl hover:bg-gray-400">
+            SEE THE WORK
+          </span>
+        </p>
+        <h1 className="text-[210px] text-gray-900 font-extrabold -mt-16 mr-4">
+          B/D®
+        </h1>
+      </div>
+
       <div className="flex justify-between items-center w-full gap-4">
         <div className="group w-1/3 h-4/5 ml-16">
           <img

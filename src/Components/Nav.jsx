@@ -113,13 +113,13 @@ const Nav = () => {
         </div>
         <div className="custom-cursor-container fixed pointer-events-none hidden">
           <div className="relative flex flex-col items-center">
-            <div className="custom-cursor w-28 h-28 rounded-full bg-white flex justify-center items-center text-black">
-              <span className="text-sm font-bold">
+            <div className="custom-cursor w-24 h-24 rounded-full bg-white flex justify-center items-center text-black">
+              <span className="text-[12px] font-bold ">
                 WATCH <br />
                 <span className="ml-2">REEL</span>
               </span>
             </div>
-            <div className="text-white text-xs mt-6 text-center font-medium">
+            <div className="text-white text-xs mt-2 text-center font-medium">
               BASIC/DEPT <sup>®</sup> <br />
               2010
             </div>
