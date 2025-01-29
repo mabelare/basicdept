@@ -45,7 +45,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="w-9/10 border-b border-gray-600 md:mt-24 md:ml-14  lg:mt-56 lg:ml-16 ml-6 mt-6 "></div>
+      <div className="w-9/10 border-b border-gray-600 md:mt-24 md:ml-10  lg:mt-56 lg:ml-16 ml-6 mt-6 "></div>
     </section>
   );
 };

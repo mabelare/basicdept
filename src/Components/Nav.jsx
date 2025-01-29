@@ -77,7 +77,7 @@ const Nav = () => {
         <div className="absolute top-0 left-0 flex-1 flex justify-center items-center gap-16 text-white mt-10 p-5">
           <a
             href="#basic/dept"
-            className="max-[435px]:text-xl max-[435px]:-mt-10 lg:text-2xl lg:ml-24 lg:-mt-2 md:text-[17px] font-bold"
+            className="max-[435px]:text-xl max-[435px]:-mt-10 lg:text-2xl lg:ml-24 lg:-mt-2 md:ml-12 md:text-[17px] font-bold"
           >
             BASIC/DEPT<sup>®</sup>
           </a>
@@ -98,7 +98,7 @@ const Nav = () => {
               CAREERS
             </a>
           </div>
-          <div className="xl:ml-56 sm:ml-72 lg:ml-96 max-[435px]:ml-36 max-[435px]:-mt-10">
+          <div className="md:ml-96  lg:ml-96 ml-36 -mt-10 md:mt-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-6 h-6"
