@@ -25,7 +25,7 @@ const Featured = () => {
     observer.observe(section);
 
     return () => {
-      observer.unobserve(section);
+      if (observer && section) observer.unobserve(section);
     };
   }, []);
 
@@ -57,6 +57,7 @@ const Featured = () => {
               loop
               muted
               className=" ml-4 md:ml-8 w-11/12 lg:w-full h-full object-cover pointer-events-none"
+              style={{ pointerEvents: "none" }}
             >
               <source src={video2} type="video/mp4" />
             </video>
