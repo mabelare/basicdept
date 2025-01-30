@@ -56,6 +56,7 @@ const Featured = () => {
               autoPlay
               loop
               muted
+              playsInline
               className=" ml-4 md:ml-8 w-11/12 lg:w-full h-full object-cover pointer-events-none"
               style={{ pointerEvents: "none" }}
             >

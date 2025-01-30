@@ -69,7 +69,8 @@ const Nav = () => {
             autoPlay
             loop
             muted
-            className="w-full h-screen object-cover pointer-events-none"
+            playsInline
+            className="w-full h-screen  object-cover pointer-events-none"
           >
             <source src={myVideos} type="video/mp4" />
           </video>
