@@ -1,6 +1,6 @@
 import React from "react";
 import adage from "../assets/images/adage.png";
-import webby from "../assets/images/webby1.jpg";
+import webby from "../assets/images/Webby1.jpg";
 import campaign from "../assets/images/campaignlogo.webp";
 const Hero = () => {
   return (

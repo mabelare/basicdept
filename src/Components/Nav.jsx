@@ -98,7 +98,7 @@ const Nav = () => {
               CAREERS
             </a>
           </div>
-          <div className="md:ml-96  lg:ml-96 ml-36 -mt-10 md:mt-2">
+          <div className="md:ml-96  lg:ml-96  -mt-10 ml-36 md:mt-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-6 h-6"
