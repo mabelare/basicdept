@@ -70,6 +70,7 @@ const Adage = () => {
               muted
               playsInline
               className="w-full h-full object-cover transform   transition-transform duration-300 hover:scale-105 pointer-events-none"
+              controls={false}
             >
               <source src={video} type="video/mp4" />
             </video>

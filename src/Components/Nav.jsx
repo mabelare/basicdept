@@ -71,6 +71,7 @@ const Nav = () => {
             muted
             playsInline
             className="w-full h-screen  object-cover pointer-events-none"
+            controls={false}
           >
             <source src={myVideos} type="video/mp4" />
           </video>
