@@ -57,7 +57,7 @@ const Bdr = () => {
           </p>
         </div>
 
-        <div className="flex-shrink-0 w-[350px] lg:w-[450px] h-screen snap-start  text-left lg:p-6 -mt-4 lg:-mt-6 lg:border-r flex  flex-col justify-center items-center">
+        <div className="flex-shrink-0 w-[350px] lg:w-[450px] h-screen snap-start  text-left lg:p-6 -mt-2 lg:-mt-6 lg:border-r flex  flex-col justify-center items-center">
           <img
             src={wilison}
             alt="wilison"
