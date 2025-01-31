@@ -588,6 +588,10 @@ video {
   }
 }
 
+video::-webkit-media-controls {
+  display: none !important;
+}
+
 .pointer-events-none {
   pointer-events: none;
 }

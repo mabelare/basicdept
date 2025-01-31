@@ -9,5 +9,13 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addComponents }) {
+      addComponents({
+        "video::-webkit-media-controls": {
+          display: "none !important",
+        },
+      });
+    },
+  ],
 };
