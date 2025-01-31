@@ -629,6 +629,10 @@ video::-webkit-media-controls {
   margin-right: auto;
 }
 
+.-mb-2 {
+  margin-bottom: -0.5rem;
+}
+
 .-mb-24 {
   margin-bottom: -6rem;
 }
@@ -683,6 +687,10 @@ video::-webkit-media-controls {
 
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 
 .mb-8 {
@@ -777,8 +785,8 @@ video::-webkit-media-controls {
   margin-right: 18rem;
 }
 
-.mr-\[230px\] {
-  margin-right: 230px;
+.mr-\[250px\] {
+  margin-right: 250px;
 }
 
 .mr-\[260px\] {

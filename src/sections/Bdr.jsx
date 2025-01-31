@@ -20,13 +20,13 @@ const Bdr = () => {
           <img
             src={google}
             alt="google"
-            className=" object-cover w-20 mr-60 lg:-mt-9 lg:mb-32 "
+            className=" object-cover mb-6 w-20 mr-60 lg:-mt-9 lg:mb-32 "
           />
 
-          <h1 className="lg:text-2xl font-semibold mb-2 mr-60 -mt-4">
+          <h1 className="lg:text-2xl font-semibold mb-2 mr-60 -mt-8">
             GOOGLE{" "}
           </h1>
-          <p className="lg:text-lg">
+          <p className="lg:text-lg ">
             Our embedded partnership with google is <br />
             as deep as its gets. We're the lead creative <br />
             agency for google store and provide <br />
@@ -40,7 +40,7 @@ const Bdr = () => {
           <img
             src={kfc}
             alt="kfc"
-            className=" object-cover mr-[230px] w-[70px] lg:w-24 "
+            className=" object-cover mr-[250px] w-[70px] lg:w-24 "
           />
 
           <h1 className="lg:text-2xl font-semibold lg:mb-2 mr-72 lg:mr-64  lg:mt-24">
@@ -57,11 +57,11 @@ const Bdr = () => {
           </p>
         </div>
 
-        <div className="flex-shrink-0 w-[350px] lg:w-[450px] h-screen snap-start  text-left lg:p-6 -mt-2 lg:-mt-6 lg:border-r flex  flex-col justify-center items-center">
+        <div className="flex-shrink-0 w-[350px] lg:w-[450px] h-screen snap-start -mt-4 text-left lg:p-6   lg:-mt-6 lg:border-r flex  flex-col justify-center items-center">
           <img
             src={wilison}
             alt="wilison"
-            className=" object-cover mr-[280px] w-28 lg:w-34  lg:mb-[180px] "
+            className=" object-cover mr-[280px] -mb-2 w-28 lg:w-34  lg:mb-[180px] "
           />
 
           <h1 className="lg:text-2xl font-semibold lg:mb-2 mr-[300px]   lg:-mt-20">
@@ -81,7 +81,7 @@ const Bdr = () => {
           <img
             src={at}
             alt="at"
-            className="object-cover w-12 mr-[280px] lg:-mt-42 mb-2 lg:mb-[121px] "
+            className="object-cover w-12  mr-[280px] lg:-mt-42 mb-4 lg:mb-[121px] "
           />
 
           <h1 className="lg:text-2xl font-semibold lg:mb-2 mr-[260px]">AT&T</h1>
