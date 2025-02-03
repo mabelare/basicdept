@@ -713,10 +713,6 @@ video::-webkit-media-controls {
   margin-left: 0.5rem;
 }
 
-.ml-20 {
-  margin-left: 5rem;
-}
-
 .ml-24 {
   margin-left: 6rem;
 }
@@ -735,6 +731,10 @@ video::-webkit-media-controls {
 
 .ml-4 {
   margin-left: 1rem;
+}
+
+.ml-40 {
+  margin-left: 10rem;
 }
 
 .ml-6 {
